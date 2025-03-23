@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - My Personal Website</title>
+    <title>Home - My Personal Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif; /* 字体 */
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: rgb(32, 40, 38);
+            margin-bottom: 100px;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
+            color: #fff; /* 字体颜色 */
+            padding: 30px 0; /* 上下边距 */
             text-align: center;
+            background-image: url('header.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #444;
+            background-color: rgba(9, 20, 17, 1);
         }
         nav a {
             color: #fff;
-            padding: 14px 20px;
+            padding: 10px 15px; /* 缩小按钮的内边距 */
             text-decoration: none;
             text-align: center;
+            border-radius: 10px; /* 圆角效果 */
+            transition: all 0.1s ease; /* 平滑过渡效果 */
+            margin: 0 10px;
         }
         nav a:hover {
-            background-color: #555;
+            background-color: rgb(87, 132, 119);
+            transform: scale(1.1); /* 悬停时略微放大 */
         }
         .container {
             padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 10px;
         }
         .project {
             background-color: #fff;
@@ -41,28 +54,11 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .btn {
-            display: inline-block;
-            margin: 20px; /* Increased margin for better spacing */
-            padding: 15px 30px; /* Larger padding for bigger buttons */
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            border: 2px solid transparent; /* Transparent border by default */
-            font-size: 18px; /* Larger font size */
-            transition: all 0.3s ease; /* Smooth transition */
-        }
-        .btn:hover {
-            background-color: #555;
-            border-color: #ff5733; /* Orange border on hover */
-            box-shadow: 0 0 10px rgba(255, 87, 51, 0.5); /* Glow effect */
-        }
         footer {
-            background-color: #333;
+            background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* 由下到上逐渐透明 */
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -78,19 +74,25 @@
 <nav>
     <a href="index.html">Home</a >
     <a href="about.html">About Me</a >
-    <a href=" ">Projects</a >
-    <a href="contact.html">Contact</a >
+    <a href="courses.html">Courses</a >
+    <a href="projects.html">Projects</a >
+    <a href="service.html">Services</a >
+    <a href="gallery.html">Gallery</a >
 </nav>
 
 <div class="container">
-    <h2>My Projects</h2>
+    <h2>Projects</h2>
     <div class="project">
-        <h3>Project 1: Personal Blog</h3>
-        <p>This is a personal blog system developed using the Django framework, featuring article publishing, commenting, and user management.</p >
+        <h3>Project 1</h3>
+        <p>...</p >
     </div>
     <div class="project">
-        <h3>Project 2: Data Analysis Tool</h3>
-        <p>This is a data analysis tool developed using Python and the Pandas library, capable of cleaning, analyzing, and visualizing large datasets.</p >
+        <h3>Project 2</h3>
+        <p>...</p >
+    </div>
+    <div class="project">
+        <h3>Project 3</h3>
+        <p>...</p >
     </div>
 </div>
 

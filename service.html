@@ -47,6 +47,20 @@
             max-width: 800px;
             border-radius: 10px;
         }
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-photo {
+            width: 500px; /* 设置照片宽度 */
+            height: 300px; /* 设置照片高度 */
+            border-radius: 5%; /* 圆形照片 */
+            margin: 0px 0; /* 照片上下间距 */
+            object-fit: cover; /* 保持照片比例 */
+        }
         footer {
             background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* 由下到上逐渐透明 */
             color: #fff;
@@ -61,7 +75,7 @@
 <body>
 
 <header>
-    <h1>Jiaqi Lan</h1>
+    <h1>Services</h1>
 </header>
 
 <nav>
@@ -74,21 +88,29 @@
 </nav>
 
 <div class="container">
-    <h2>Welcome to Jiaqi Lan's website</h2>
-    <p>Hello everyone and welcome to my personal website.<br>
-        Here I will present my personal experience as well as my service projects.<br>
-        Thank you very much for watching.
-    </p >
-    <p>This is the home page of my personal website.<br>
-        Click the buttons above to navigate to other pages.
-    </p >
-    <p>If you have any questions or collaboration opportunities, feel free to reach out to me:<br>
-        <i>Email: lanjiaqi83@gmail.com<i>
-    </p >
+    <h2>Services</h2>
+    <div class="project">
+        <h3>Illustration customization</h3>
+        <img src="service_1.png"
+        alt="Profile Photo" class="profile-photo">
+        <p>Including scientific research flow charts, scientific research diagrams, display boards, etc.</p >
+    </div>
+    <div class="project">
+        <h3>Visual identity</h3>
+        <img src="service_2.png"
+        alt="Profile Photo" class="profile-photo">
+        <p>Including web design, brochure design, PPT customization, LOGO design, etc.</p >
+    </div>
+    <div class="project">
+        <h3>Cultural and creative design</h3>
+        <img src="service_3.jpg"
+        alt="Profile Photo" class="profile-photo">
+        <p>Including social media avatar customization, mobile wallpapers, postcards, etc.</p >
+    </div>
 </div>
 
 <footer>
-    <p>&copy; 2025 Jiaqi Lan Website. All rights reserved.</p >
+    <p>&copy; 2025 My Personal Website. All rights reserved.</p >
 </footer>
 
 </body>
