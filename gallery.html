@@ -60,6 +60,18 @@
             border-radius: 10px;
             max-width: 85%;
         }
+        .profile-photo {
+            width: 500px; /* 设置照片宽度 */
+            height: 300px; /* 设置照片高度 */
+            border-radius: 5%; /* 圆形照片 */
+            margin: 0px 0; /* 照片上下间距 */
+            object-fit: cover; /* 保持照片比例 */
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #333;
+        }
         footer {
             background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* 由下到上逐渐透明 */
             color: #fff;
@@ -88,7 +100,25 @@
 
 <div class="container">
     <h2>Gallery</h2>
-    <p>...</p >
+    <img src="gallery_1.png"
+    alt="Profile Photo" class="profile-photo">
+    <p>Laurel Highlands handpainted 2021/01</p >
+    <br>
+    <img src="gallery_2.png"
+    alt="Profile Photo" class="profile-photo">
+    <p>Fantasy landscape map three groups, lighthouse, mountain peaks, airships 2022/04</p >
+    <br>
+    <img src="gallery_3.png"
+    alt="Profile Photo" class="profile-photo">
+    <p>Memories of Central Asia 2022/10</p >
+    <br>
+    <img src="gallery_4.png"
+    alt="Profile Photo" class="profile-photo">
+    <p>Flowchart of the undergraduate completion project: Fluids in microchannels 2024/6</p >
+    <br>
+    <img src="gallery_5.png"
+    alt="Profile Photo" class="profile-photo">
+    <p>An interesting illustration diagram about lithium batteries 2024/11</p >
 </div>
 
 <footer>
