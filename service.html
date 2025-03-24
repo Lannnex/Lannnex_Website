@@ -40,6 +40,17 @@
             background-color: rgb(87, 132, 119);
             transform: scale(1.1); /* 悬停时略微放大 */
         }
+        @media (max-width: 640px) {
+            nav a {
+                color: #fff;
+                padding: 3px 3px; /* 缩小按钮的内边距 */
+                text-decoration: none;
+                text-align: center;
+                border-radius: 5px; /* 圆角效果 */
+                transition: all 0.1s ease; /* 平滑过渡效果 */
+                margin: 0 5px;
+            }
+        }
         .container {
             padding: 20px;
             text-align: center;
