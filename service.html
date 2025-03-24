@@ -79,6 +79,23 @@
             height: auto;
             border: 2px solid #333;
         }
+        .pdf-download-link {
+            display: inline-block;
+            margin-top: 0px;
+            padding: 10px 15px;
+            background-color: rgb(32, 40, 38);
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .pdf-download-link:hover {
+            background-color: rgb(87, 132, 119);
+        }
+        .fas {
+            margin-right: 8px;
+        }
         footer {
             background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* 由下到上逐渐透明 */
             color: #fff;
@@ -112,6 +129,10 @@
         <img src="service_1.png"
         alt="Profile Photo" class="profile-photo">
         <p>Including scientific research flow charts, scientific research diagrams, display boards, etc.</p >
+            <!-- PDF下载链接 -->
+            <a href="service_1.pdf" download class="pdf-download-link">
+                Example download
+            </a >
     </div>
     <div class="project">
         <h3>Visual identity</h3>
